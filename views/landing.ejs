@@ -4,6 +4,8 @@
 <head>
     <!-- Fonts -->
     <script src="https://unpkg.com/feather-icons"></script>
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Permanent+Marker&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -54,11 +56,11 @@
 
 
     <div class="row bg-light pt-5">
+
         <div class="col-md-9">
             <div class="sec-main-heading">
                 <h2 class="main-heading">Recent blogs</h2>
             </div>
-
             <div class="card m-3 ">
                 <div class="row no-gutters">
                     <div class="col-md-4">
@@ -88,111 +90,48 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="card m-3 ">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <img src="images/lauren-mancke-aOC7TSLb1o8-unsplash.jpg" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card m-3 ">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <img src="images/lauren-mancke-aOC7TSLb1o8-unsplash.jpg" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card m-3 ">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <img src="images/lauren-mancke-aOC7TSLb1o8-unsplash.jpg" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card m-3 ">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <img src="images/lauren-mancke-aOC7TSLb1o8-unsplash.jpg" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card m-3 ">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <img src="images/lauren-mancke-aOC7TSLb1o8-unsplash.jpg" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card m-3 ">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <img src="images/lauren-mancke-aOC7TSLb1o8-unsplash.jpg" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-
-            <div class="sidebar">
-                <div class="make-me-sticky">
-                    <div class="sticky-heading">
-                        <h3>Top Blogs</h3>
-                    </div>
-                </div>
-
             </div>
 
+            <% for (x=0;x<10;x++) { %>
+            <div class="card m-3 ">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="images/lauren-mancke-aOC7TSLb1o8-unsplash.jpg" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <%}%>
+
+
+    </div>
+    <div class="col-md-3">
+
+        <div class="sidebar">
+            <div class="make-me-sticky">
+                <div class="sticky-heading">
+                    <h3>Top Blogs</h3>
+                </div>
+                <div class="card m-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Button</a>
+                    </div>
+                </div>
+            </div>
 
         </div>
+
+
+    </div>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
