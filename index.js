@@ -13,5 +13,9 @@ app.get( "/" , (req,res) => {
     res.render('landing');
 });
 
+app.get('/read-blog', (req, res) => {
+    res.render('read-blog');
+   });
+
 app.listen(3000,() => console.log("listening on port 3000"));
 

@@ -1,114 +1,49 @@
-<!doctype html>
-<html lang="en">
+<%- include('header'); -%>
 
-<head>
-    <!-- Fonts -->
-    <script src="https://unpkg.com/feather-icons"></script>
-    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Permanent+Marker&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
-</head>
-<link rel="stylesheet" href="css/styles.css">
+<div class="container-fluid title">
 
-<body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand pt-1" href="#"><i data-feather="circle"></i> Blog</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
-            <ul class="navbar-nav justify-content-center">
-                <li class="nav-item pr-4">
-                    <a class="nav-link" href="#">Blogs</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About me</a>
-                </li>
-
-            </ul>
+    <div class="col icondiv">
+        <img class="title-img" src="images/field-notes.png" alt="">
+    </div>
+    <div class="col">
+        <div class="heading">
+            <h1>Digital 'Field Notes'</h1>
+            <h5 class="sub-heading">A guide on how I started getting shit done, and what I've learned from it.</h5>
         </div>
-    </nav>
-
-    <div class="container-fluid title">
-
-        <div class="col icondiv">
-            <img class="field-notes" src="images/field-notes.png" alt="">
-        </div>
-        <div class="col">
-            <div class="heading">
-                <h1>Digital Field Notes</h1>
-                <h5 class="sub-heading">A guide on how I started getting shit done, and what I've learned from it.</h5>
-            </div>
-        </div>
-
     </div>
 
+</div>
 
-    <div class="row bg-light pt-5">
 
-        <div class="col-md-9">
-            <div class="sec-main-heading">
-                <h2 class="main-heading">Recent blogs</h2>
-            </div>
-            <div class="card m-3 ">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <img src="images/lauren-mancke-aOC7TSLb1o8-unsplash.jpg" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+<div class="row bg-light">
+
+    <div class="col-md-9 pt-5 blog-posts">
+        <div class="sec-main-heading mb-5">
+            <h2 class="main-heading pb-3">Recent blogs</h2>
+        </div>
+
+        <% for (x=0;x<10;x++) { %>
+        <div class="card m-3 ">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="images/lauren-mancke-aOC7TSLb1o8-unsplash.jpg" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                       <div class="btn btn-one">
+                            <span>Read more</span>
                         </div>
-                    </div>
+                    </div> 
                 </div>
             </div>
-            <div class="card m-3 ">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <img src="images/lauren-mancke-aOC7TSLb1o8-unsplash.jpg" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <% for (x=0;x<10;x++) { %>
-            <div class="card m-3 ">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <img src="images/lauren-mancke-aOC7TSLb1o8-unsplash.jpg" class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <%}%>
+        </div>
+        <%}%>
 
 
     </div>
@@ -116,16 +51,20 @@
 
         <div class="sidebar">
             <div class="make-me-sticky">
-                <div class="sticky-heading">
-                    <h3>Top Blogs</h3>
+                <div class="sticky-heading pt-5 mb-5 pb-3">
+                    <h3>Popular Blogs</h3>
                 </div>
-                <div class="card m-3">
+                <% for (x=0;x<3;x++) { %>                
+                    <div class="card m-3">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h3 class="card-title">Why do we always go back?</h3>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Button</a>
+                        <div class="btn btn-one">
+                            <span>Read more</span>
+                          </div>
                     </div>
                 </div>
+                <%}%>
             </div>
 
         </div>
