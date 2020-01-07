@@ -101,7 +101,13 @@ app.post('/compose', (req, res) => {
 
 
 app.get('/blogs/:blog_id',(req,res) => {
-    console.log(req.params.blog_id);
+    var blog_page = '';
+    blogs.forEach(blog => {
+        if ( _.toLower(req.params.blog_id) === _.toLower(blog.title) ) {
+            blog_page = blog.title;
+        }
+    });
+    res.render('read-blog',{blog:blog_page});
 });
 
 app.listen(3000, () => console.log("listening on port 3000"));
