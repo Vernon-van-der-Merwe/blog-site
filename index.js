@@ -1,6 +1,6 @@
 //jshint using ES6
 let blogs = [{
-    'title': 'Whats going on with humanity?',
+    'title': 'Whats going on with humanity',
     'summary': 'My take on why humanity is gong downhill',
     'body': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum accusantium temporibus saepe dolore incidunt laboriosam repudiandae excepturi ipsa repellendus ipsam vitae odit sapiente in, ducimus hic necessitatibus distinctio quos quod itaque perspiciatis ipsum? Commodi, error blanditiis maiores, cumque doloremque officiis quas voluptate voluptas iste harum labore ipsum odit nemo libero nisi, id perspiciatis adipisci. Accusamus ipsa molestias eligendi eum reprehenderit veniam corporis cum voluptas illum quos? Necessitatibus iure voluptatibus vitae reiciendis aperiam at consectetur deserunt facere, ad ipsa, repudiandae tempore? Minus provident assumenda voluptates officia vero! Sapiente autem magnam natus impedit tempora repellat recusandae explicabo, ut, voluptatem alias maiores aliquid.',
     'category': 'Philosophy',
@@ -10,7 +10,7 @@ let blogs = [{
     'views': ''
 
 }, {
-    'title': 'Why cant we ever come back?',
+    'title': 'Yesterdays dinner',
     'summary': 'My take on why humanity is gong downhill',
     'body': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum accusantium temporibus saepe dolore incidunt laboriosam repudiandae excepturi ipsa repellendus ipsam vitae odit sapiente in, ducimus hic necessitatibus distinctio quos quod itaque perspiciatis ipsum? Commodi, error blanditiis maiores, cumque doloremque officiis quas voluptate voluptas iste harum labore ipsum odit nemo libero nisi, id perspiciatis adipisci. Accusamus ipsa molestias eligendi eum reprehenderit veniam corporis cum voluptas illum quos? Necessitatibus iure voluptatibus vitae reiciendis aperiam at consectetur deserunt facere, ad ipsa, repudiandae tempore? Minus provident assumenda voluptates officia vero! Sapiente autem magnam natus impedit tempora repellat recusandae explicabo, ut, voluptatem alias maiores aliquid.',
     'category': 'Philosophy',
@@ -19,7 +19,7 @@ let blogs = [{
     'modified': {}
 
 }, {
-    'title': 'Mars is our only hope?',
+    'title': 'Mars is our only hope',
     'summary': 'My take on why humanity is gong downhill',
     'body': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum accusantium temporibus saepe dolore incidunt laboriosam repudiandae excepturi ipsa repellendus ipsam vitae odit sapiente in, ducimus hic necessitatibus distinctio quos quod itaque perspiciatis ipsum? Commodi, error blanditiis maiores, cumque doloremque officiis quas voluptate voluptas iste harum labore ipsum odit nemo libero nisi, id perspiciatis adipisci. Accusamus ipsa molestias eligendi eum reprehenderit veniam corporis cum voluptas illum quos? Necessitatibus iure voluptatibus vitae reiciendis aperiam at consectetur deserunt facere, ad ipsa, repudiandae tempore? Minus provident assumenda voluptates officia vero! Sapiente autem magnam natus impedit tempora repellat recusandae explicabo, ut, voluptatem alias maiores aliquid.',
     'category': 'Philosophy',
@@ -29,7 +29,7 @@ let blogs = [{
     'views': ''
 
 }, {
-    'title': 'Elon musk will save humanity?',
+    'title': 'Elon musk will save humanity',
     'summary': 'My take on why humanity is gong downhill',
     'body': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum accusantium temporibus saepe dolore incidunt laboriosam repudiandae excepturi ipsa repellendus ipsam vitae odit sapiente in, ducimus hic necessitatibus distinctio quos quod itaque perspiciatis ipsum? Commodi, error blanditiis maiores, cumque doloremque officiis quas voluptate voluptas iste harum labore ipsum odit nemo libero nisi, id perspiciatis adipisci. Accusamus ipsa molestias eligendi eum reprehenderit veniam corporis cum voluptas illum quos? Necessitatibus iure voluptatibus vitae reiciendis aperiam at consectetur deserunt facere, ad ipsa, repudiandae tempore? Minus provident assumenda voluptates officia vero! Sapiente autem magnam natus impedit tempora repellat recusandae explicabo, ut, voluptatem alias maiores aliquid.',
     'category': 'Philosophy',
@@ -39,7 +39,7 @@ let blogs = [{
     'views': ''
 
 }, {
-    'title': 'Is anyone else really lis for some KFC?',
+    'title': 'Is anyone else really lis for some KFC',
     'summary': 'My take on why humanity is gong downhill',
     'body': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum accusantium temporibus saepe dolore incidunt laboriosam repudiandae excepturi ipsa repellendus ipsam vitae odit sapiente in, ducimus hic necessitatibus distinctio quos quod itaque perspiciatis ipsum? Commodi, error blanditiis maiores, cumque doloremque officiis quas voluptate voluptas iste harum labore ipsum odit nemo libero nisi, id perspiciatis adipisci. Accusamus ipsa molestias eligendi eum reprehenderit veniam corporis cum voluptas illum quos? Necessitatibus iure voluptatibus vitae reiciendis aperiam at consectetur deserunt facere, ad ipsa, repudiandae tempore? Minus provident assumenda voluptates officia vero! Sapiente autem magnam natus impedit tempora repellat recusandae explicabo, ut, voluptatem alias maiores aliquid.',
     'category': 'Philosophy',
@@ -49,7 +49,7 @@ let blogs = [{
     'views': ''
 
 }, {
-    'title': 'Writing blog titles become demanding after a while?',
+    'title': 'Writing blog titles become demanding after a while',
     'summary': 'My take on why humanity is gong downhill',
     'body': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum accusantium temporibus saepe dolore incidunt laboriosam repudiandae excepturi ipsa repellendus ipsam vitae odit sapiente in, ducimus hic necessitatibus distinctio quos quod itaque perspiciatis ipsum? Commodi, error blanditiis maiores, cumque doloremque officiis quas voluptate voluptas iste harum labore ipsum odit nemo libero nisi, id perspiciatis adipisci. Accusamus ipsa molestias eligendi eum reprehenderit veniam corporis cum voluptas illum quos? Necessitatibus iure voluptatibus vitae reiciendis aperiam at consectetur deserunt facere, ad ipsa, repudiandae tempore? Minus provident assumenda voluptates officia vero! Sapiente autem magnam natus impedit tempora repellat recusandae explicabo, ut, voluptatem alias maiores aliquid.',
     'category': 'Philosophy',
@@ -100,14 +100,21 @@ app.post('/compose', (req, res) => {
 
 
 
-app.get('/blogs/:blog_id',(req,res) => {
-    var blog_page = '';
-    blogs.forEach(blog => {
-        if ( _.toLower(req.params.blog_id) === _.toLower(blog.title) ) {
-            blog_page = blog.title;
+app.get('/:blog_id',(req,res) => {
+
+    var blog = '';
+    let value1 = _.toLower(req.params.blog_id);
+    
+
+    blogs.forEach(arrayItem => {
+    let value2 = _.toLower(arrayItem.title);
+
+        if (value1 ==  value2) {    
+            blog = arrayItem;
         }
+
     });
-    res.render('read-blog',{blog:blog_page});
+    res.render('read-blog',{blog:blog});
 });
 
 app.listen(3000, () => console.log("listening on port 3000"));
