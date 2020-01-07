@@ -1,0 +1,31 @@
+<%- include('partials/header'); -%>
+
+<div class="container">
+    <form action="/compose" method="POST">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label >Title</label>
+                <input type="" class="form-control" name="title" placeholder="" >
+            </div>
+
+        </div>
+        <div class="article-summary-text-area mb-3">
+            <label for="validationTextarea">Article summary</label>
+            <textarea class="form-control" name="summary" placeholder="" ></textarea>
+            <div class="invalid-feedback">
+                Please enter a message in the textarea.
+            </div>
+        </div>
+        <div class="article-text-area mb-3">
+            <label for="validationTextarea">Article body</label>
+            <textarea class="form-control" name="article_body" placeholder="" ></textarea>
+            <div class="invalid-feedback">
+                Please enter a message in the textarea.
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+    </form>
+</div>
+
+
+<%- include('partials/footer'); -%>

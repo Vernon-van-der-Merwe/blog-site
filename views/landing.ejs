@@ -1,6 +1,4 @@
-<%- include('header'); -%>
-
-
+<%- include('partials/header'); -%>
 
 <div class="container-fluid title">
 
@@ -24,7 +22,7 @@
             <h2 class="main-heading pb-3">Recent blogs</h2>
         </div>
 
-        <% for (x=0;x<10;x++) { %>
+        <% blogs.forEach(blog => { %>
         <div class="card m-3 ">
             <div class="row no-gutters">
                 <div class="col-md-4">
@@ -32,18 +30,17 @@
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                       <div class="btn btn-one">
+                        <h5 class="card-title"><%= blog.title %></h5>
+                        <p class="card-text"><%= blog.summary %></p>
+                        <p class="card-text"><small class="text-muted">posted <%= blog.created %></small></p>
+                        <div class="btn-readmore btn-one">
                             <span>Read more</span>
                         </div>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </div>
-        <%}%>
+        <%});%>
 
 
     </div>
@@ -54,39 +51,28 @@
                 <div class="sticky-heading pt-5 mb-5 pb-3">
                     <h3>Popular Blogs</h3>
                 </div>
-                <% for (x=0;x<3;x++) { %>                
-                    <div class="card m-3">
+                <% blogs.forEach(blog => { if(blog.popular === true){  %>
+
+                <div class="card m-3">
                     <div class="card-body">
-                        <h3 class="card-title">Why do we always go back?</h3>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <div class="btn btn-one">
-                            <span>Read more</span>
-                          </div>
+                        <h3 class="card-title"><%= blog.title %></h3>
+                        <p onclick="submit" class="card-text"><%= blog.summary %></p>
+                        <a href="/blogs/blog.title" style="text-decoration: none; ">
+                            <div class="btn-readmore btn-one">
+                                Read more
+                            </div>
+                        </a>
                     </div>
                 </div>
-                <%}%>
+                <%}});%>
             </div>
 
         </div>
 
 
     </div>
-    </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script>
-        feather.replace();
-    </script>
+</div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-</body>
 
-</html>
+
+<%- include('partials/footer'); -%>
