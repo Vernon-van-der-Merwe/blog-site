@@ -182,3 +182,26 @@
     margin-bottom: -3;
 }
 
+/* create new post */
+  input:focus, textarea:focus, select:focus{
+    outline: none;
+    
+}
+.create-input{
+    width: 100%;
+    border: none;    
+    padding: 50px 100px 0 100px;
+}
+#heading {    
+    box-sizing: border-box; 
+    padding: 0 20px 0 20px;
+    margin: 8px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+  }
+#body{
+
+    resize: none;
+    max-height: 10000px;
+    overflow: hidden;
+}
